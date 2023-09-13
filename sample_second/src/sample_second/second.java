@@ -3,6 +3,7 @@ package sample_second;
 public class second {
 
 	public static void main(String[] args) {
+		//[変数の代入と計算]
 		//practice
 		int month;
 		month = 9;
