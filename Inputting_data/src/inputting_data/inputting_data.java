@@ -88,6 +88,8 @@ public class inputting_data {
 		default:
 			System.out.println(numC + "は無効である");
 		}
+		
+//		[回答完了]
 	}
 
 }
