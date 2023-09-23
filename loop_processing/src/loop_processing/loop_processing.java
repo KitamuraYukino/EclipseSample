@@ -64,11 +64,57 @@ public class loop_processing {
 		}
 		
 //		[課題２：配列の数について出力]
-		int[] nums = {20,1,2,23,5,11,5,6,7};
+		int[] nums = {20,1,2,23,5,11,5,67};
 		
-		for(int i = 0; i <= nums.length; i++) {
-			System.out.println(nums.length[4]);
+//		[4番目の要素]
+		int targetIndex = 3;
+		int fourthElement = -1;
+		
+		for(int i = 0; i < nums.length; i++) {
+			if(i == targetIndex) {
+				fourthElement = nums[i];
+				
+				System.out.println("4番目の要素は" + fourthElement);
+				break;
+				
+			}
 		}
+		
+//		[要素数]
+		int count = 0;
+		for(int i = 1; i < nums.length; i++) {
+			count++;
+		}
+		
+		System.out.println("配列の要素数は" + count);
+		
+//		[平均値]
+		double average = 0.0;
+		int sum = 0;
+		for(int i = 0; i < nums.length; i++) {
+			sum += nums[i];
+		}
+		if (count > 0) {
+			average = (double) sum / count;
+		}
+		
+		System.out.println("配列の平均値は" + average);
+		
+//		[課題３：二次元配列]
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
