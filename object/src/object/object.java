@@ -13,7 +13,7 @@ public class object {
 		
 		
 		for(int i = 0; i < score.length; i++) {
-			System.out.println(name[i] + "さん：" + score[i] + "点");
+			System.out.println(name[i] + "さん：" + score1[i] + "点");
 		}
 
 	}
