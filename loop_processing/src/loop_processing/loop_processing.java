@@ -60,8 +60,10 @@ public class loop_processing {
 		System.out.println("xを入力してください：" + x);
 		
 		for(int i = 1; i <= 9; i++) {
-			System.out.println(i * x);
+			System.out.print(i * x + " ");
 		}
+		
+		System.out.println();
 		
 //		[課題２：配列の数について出力]
 		int[] nums = {20,1,2,23,5,11,5,67};
@@ -102,10 +104,80 @@ public class loop_processing {
 		
 //		[課題３：二次元配列]
 		
+		int[][] array = {
+				{1, 8, 12, 17, 20},
+				{2, 5, 11, 13, 18},
+				{4, 6, 9, 19, 21},
+		};
+		
+		for(int i = 0; i < array.length; i++) {
+			
+			for(int i1 = 0; i1 < array[i].length; i1++) {
+				int data = array[i][i1];
+				String space;
+				String dataStr = Integer.toString(data);
+				
+				if(dataStr.length() == 1) {
+					space = "  ";
+				} else {
+					space = " ";
+				}
+				
+				System.out.print(array[i][i1] + space);
+			}
+			
+			System.out.println();
+			
+		}
+		
+		
+//		[課題４：ピラミッド出力]
+		
+		for(int i = 1; i <= 4; i++) {
+			String data = "$";
+			
+			for(int i1 = 1; i1 <= i; i1++) {
+				System.out.print(data);
+			}
+			
+			System.out.println();
+		}
+		
+		for(int i = 1; i <= 4; i++) {
+			String data = "$";
+			String space = " ";
+			
+			for(int i2 = 1; i2 <= 4 - i; i2++) {
+				System.out.print(space);
+			}
+			
+			for(int i1 = 1; i1 <= i; i1++) {
+				System.out.print(data);
+			}
+			
+			System.out.println();
+
+		}
 		
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
 		
 		
 		
