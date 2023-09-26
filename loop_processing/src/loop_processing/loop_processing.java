@@ -159,9 +159,7 @@ public class loop_processing {
 
 		}
 		
-		
-		
-		
+	
 		
 		
 		
