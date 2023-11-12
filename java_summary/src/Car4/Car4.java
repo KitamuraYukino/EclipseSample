@@ -14,7 +14,7 @@ class Car4{
     count++;
     System.out.println("ナンバー" + no + "を作りました");
   }
-  public void display(){
+  public static void display(){
     System.out.println(count + "台作成済です");
   }
 }
