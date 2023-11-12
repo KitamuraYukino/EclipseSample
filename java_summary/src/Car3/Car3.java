@@ -1,3 +1,5 @@
+package Car3;
+
 class Car3{
   private int no;
   private int speed;
@@ -18,6 +20,6 @@ class Car3{
     speed = speed - s;
   }
   public void display(){
-    System.out.println("ƒiƒ“ƒo[" + no + "‚Ì‘¬“x‚Í" + speed + "‚Å‚·");
+	  System.out.println("ãƒŠãƒ³ãƒãƒ¼" + no + "ã®é€Ÿåº¦ã¯" + speed + "ã§ã™");
   }
 }

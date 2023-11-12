@@ -1,3 +1,5 @@
+package Car2;
+
 class DriveCar2{
   public static void main(String[] args){
     Car2 c1 = new Car2();
